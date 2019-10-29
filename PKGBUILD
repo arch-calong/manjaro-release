@@ -1,7 +1,7 @@
 # Maintainer: Guinux <nuxgui@gmail.com>
 
 pkgname=manjaro-release
-pkgver=18.1.1
+pkgver=18.1.2
 pkgrel=1
 pkgdesc="Manjaro's release definition"
 arch=("any")
@@ -10,7 +10,7 @@ license=('GPL2')
 depends=('lsb-release')
 source=('lsb-release')
 install="manjaro-release.install"
-sha256sums=('ffafb74206207e98b9f5f0c6afd45f21ea7f372e2b4db40c5a0e10b1c7a1defd')
+sha256sums=('e4a933e3a2a14fd2e600a6fdd8643d3bb74e0d3070186a80513fb4464c08efdd')
 
 package() {
     # Copy files
