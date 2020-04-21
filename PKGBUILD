@@ -1,7 +1,7 @@
 # Maintainer: Guinux <nuxgui@gmail.com>
 
 pkgname=manjaro-release
-pkgver=19.0.2
+pkgver=20.0rc
 pkgrel=1
 pkgdesc="Manjaro's release definition"
 arch=("any")
@@ -10,11 +10,10 @@ license=('GPL2')
 depends=('lsb-release')
 source=('lsb-release')
 install="manjaro-release.install"
-sha256sums=('be3e8378c4f70c67654648cc0171bc3fb1d41eb844714c8929fab339d59bc682')
+sha256sums=('2f9c926faa831fe839c3927859cfde53e13e7f2e3dbc468d0d3cc42fd8c25833')
 
 package() {
     # Copy files
     mkdir -p ${pkgdir}/etc
     install -m644 ${srcdir}/lsb-release ${pkgdir}/etc/
-
 }
