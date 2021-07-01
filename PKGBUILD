@@ -2,7 +2,7 @@
 
 pkgname=manjaro-release
 pkgver=21.1.0rc1
-pkgrel=1
+pkgrel=2
 pkgdesc="Manjaro's release definition"
 arch=("any")
 url="https://manjaro.org/"
@@ -10,7 +10,7 @@ license=('GPL2')
 depends=('lsb-release')
 source=('lsb-release')
 install="manjaro-release.install"
-sha256sums=('0f3a542c9976a0d84e35b2a9235a520bc2f3f1e88151d5db5d3812b5b063c190')
+sha256sums=('e6244adc93001c5d05f92fcf47ff7d71441da976afdbb66e48ecb25737bd9a16')
 
 #pkgver() {
     #parse lsb-release
