@@ -1,7 +1,7 @@
 # Maintainer: Guinux <nuxgui@gmail.com>
 
 pkgname=manjaro-release
-pkgver=21.3.2
+pkgver=22.0
 pkgrel=1
 pkgdesc="Manjaro's release definition"
 arch=("any")
